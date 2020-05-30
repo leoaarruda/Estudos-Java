@@ -70,7 +70,7 @@ public class CalcularCaloria {
                   System.out.println("Obrigado, seja feliz e leve uma vida saudável =)");
               }else{
                 System.out.println(
-                    "Digite o númeoro do seu fato de atividade. \n1. Sedentário \n2. Exercícios Leves 1 a 3 vezes/senama \n3. Exercícios Moderados 3 a 5 vezes/senama \n4. Exercício Intensos 6 a 7 vezes/seman \n5. Atleta \n");
+                    "Digite o número do seu fator de atividade. \n1. Sedentário \n2. Exercícios Leves 1 a 3 vezes/senama \n3. Exercícios Moderados 3 a 5 vezes/senama \n4. Exercício Intensos 6 a 7 vezes/seman \n5. Atleta \n");
                                     byte fator = input.nextByte();
                                         
                     if(fator != 1 && fator != 2 && fator != 3 && fator != 4 && fator != 5 ){
