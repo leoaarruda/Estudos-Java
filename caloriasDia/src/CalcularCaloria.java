@@ -24,6 +24,18 @@ public class CalcularCaloria {
 
        System.out.println("Quem é você? Se mulher digite 1, homem digite 2");
        byte resposta = input.nextByte();
+        
+        if(resposta != 1 && resposta != 2 ){
+
+            System.out.println("Resposta inválida");
+
+        }else if(resposta == 1){
+            System.out.println("Homem");
+        
+        }else if(resposta == 2){
+            System.out.println("Mulher");
+
+        }
 
        input.close();
     }
