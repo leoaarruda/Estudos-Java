@@ -73,9 +73,9 @@ public class CalcularCaloria {
                      byte fator = input.nextByte();
 
                      switch(fator){
-                        case 1: System.out.println( resultado * sedentario); break
-                        case 2: System.out.println( resultado * exercicioLeve);break;
-                        case 3: System.out.println( resultado * exercicioModerado)break;;
+                        case 1: System.out.println( resultado * sedentario); break;
+                        case 2: System.out.println( resultado * exercicioLeve); break;
+                        case 3: System.out.println( resultado * exercicioModerado); break;
                         case 4: System.out.println( resultado * exercicioIntensos);break;
                         case 5: System.out.println( resultado * atleta);break;
                         default: System.out.println("\nObrigado, seja feliz e leve uma vida saudável =)\n");
