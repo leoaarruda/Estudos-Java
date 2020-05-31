@@ -1,8 +1,6 @@
 import java.text.BreakIterator;
 import java.util.Scanner;
 
-import javax.naming.spi.DirStateFactory.Result;
-
 public class CalcularCaloria {
     public static void main(String[] args) throws Exception {
        Scanner input = new Scanner(System.in);
@@ -76,8 +74,8 @@ public class CalcularCaloria {
                         case 1: System.out.println( resultado * sedentario); break;
                         case 2: System.out.println( resultado * exercicioLeve); break;
                         case 3: System.out.println( resultado * exercicioModerado); break;
-                        case 4: System.out.println( resultado * exercicioIntensos);break;
-                        case 5: System.out.println( resultado * atleta);break;
+                        case 4: System.out.println( resultado * exercicioIntensos); break;
+                        case 5: System.out.println( resultado * atleta); break;
                         default: System.out.println("\nObrigado, seja feliz e leve uma vida saudável =)\n");
                     }                       
             input.close();
