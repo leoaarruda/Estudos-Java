@@ -28,7 +28,6 @@ public class CalcularCaloria {
        byte resposta = input.nextByte();
         
         if(resposta != 1 && resposta != 2 ){
-
             System.out.println("Digito inválido! Digite 1 ou 2.");
 
         }else if(resposta == 1){
@@ -80,9 +79,7 @@ public class CalcularCaloria {
                         case 4: System.out.println( resultado * exercicioIntensos);break;
                         case 5: System.out.println( resultado * atleta);break;
                         default: System.out.println("\nObrigado, seja feliz e leve uma vida saudável =)\n");
-                    }
-                        
-
+                    }                       
             input.close();
         }
     }
